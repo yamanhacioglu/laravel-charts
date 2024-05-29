@@ -256,7 +256,7 @@ class LaravelChart
             'group_by_field'        => 'required|bail',
             'group_by_period'       => 'in:day,week,month,year|bail',
             'aggregate_function'    => 'in:count,sum,avg|bail',
-            'chart_type'            => 'required|in:line,bar,pie|bail',
+            'chart_type'            => 'required|in:line,bar,pie,doughnut|bail',
             'filter_days'           => 'integer',
             'filter_period'         => 'in:week,month,year',
             'hidden'                => 'boolean',
@@ -268,7 +268,7 @@ class LaravelChart
             'report_type.in' => 'report_type option should contain one of these values - group_by_date/group_by_string',
             'group_by_period.in' => 'group_by option should contain one of these values - day/week/month/year',
             'aggregate_function.in' => 'number_function option should contain one of these values - count/sum/avg',
-            'chart_type.in' => 'chart_type option should contain one of these values - line/bar/pie',
+            'chart_type.in' => 'chart_type option should contain one of these values - line/bar/pie/doughnut',
             'filter_period.in' => 'filter_period option should contain one of these values - week/month/year',
         ];
 
