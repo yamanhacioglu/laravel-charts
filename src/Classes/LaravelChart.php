@@ -314,7 +314,7 @@ class LaravelChart
      */
     public function renderChartJsLibrary()
     {
-        return '<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.min.js"></script>';
+        return '<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.min.js"></script>';
     }
     
     /**
